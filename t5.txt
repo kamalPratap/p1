@@ -1,0 +1,7 @@
+class OverLoading():
+    def __init__(self):
+        self.valu="this is overloading example"    
+    def oload(self,val1=None,val2=None):
+        self.first=val1
+        self.second=val2
+        return self.first,self.second
